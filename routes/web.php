@@ -29,3 +29,7 @@ Route::get('/terminos-y-uso', function () {
 Route::get('/catalogos', function () {
     return view('catalogos');
 });
+
+Route::get('/consultas', function () {
+    return view('consultas');
+});
