@@ -17,3 +17,7 @@ Route::get('/comercializacion', function () {
 Route::get('/quienes-somos', function () {
     return view('quienes-somos');
 });
+
+Route::get('/contactos', function () {
+    return view('contactos');
+});
