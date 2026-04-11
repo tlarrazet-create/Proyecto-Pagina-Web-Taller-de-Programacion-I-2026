@@ -21,3 +21,7 @@ Route::get('/quienes-somos', function () {
 Route::get('/contactos', function () {
     return view('contactos');
 });
+
+Route::get('/terminos-y-uso', function () {
+    return view('terminos-y-uso');
+});
