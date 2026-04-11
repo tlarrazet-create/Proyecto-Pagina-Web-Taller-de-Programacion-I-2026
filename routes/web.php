@@ -25,3 +25,7 @@ Route::get('/contactos', function () {
 Route::get('/terminos-y-uso', function () {
     return view('terminos-y-uso');
 });
+
+Route::get('/catalogos', function () {
+    return view('catalogos');
+});
