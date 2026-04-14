@@ -80,7 +80,7 @@
                             <a href="https://wa.me/3794944161" class="btn btn-success me-md-2">
                                 <i class="bi bi-whatsapp"></i> WhatsApp Ventas
                             </a>
-                            <a href="https://instagram.com/brightness.store" class="btn btn-danger">
+                            <a href="https://www.instagram.com/brightness__store/" class="btn btn-danger">
                                 <i class="bi bi-instagram"></i> Instagram
                             </a>
                         </div>
