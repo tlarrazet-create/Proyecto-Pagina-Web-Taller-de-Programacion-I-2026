@@ -8,9 +8,8 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Brightness.Store</a>
+      <a class="navbar-brand" href="/">Brightness.Store</a>
       <div class="navbar-nav">
-        <a class="nav-link" href="/principal">Inicio</a>
         <a class="nav-link active" href="/catalogos">Catalogos</a>
         <a class="nav-link active" href="/consultas">Consultas</a>
         <a class="nav-link active" href="/contactos">Contactos</a>

@@ -10,9 +10,8 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Brightness.Store</a>
+      <a class="navbar-brand" href="/">Brightness.Store</a>
       <div class="navbar-nav">
-        <a class="nav-link active" href="/principal">Inicio</a>
         <a class="nav-link active" href="/catalogos">Catalogos</a>
         <a class="nav-link active" href="/consultas">Consultas</a>
         <a class="nav-link" href="/contactos">Contactos</a>
@@ -39,7 +38,7 @@
                         </div>
                         <div class="col-sm-6 mb-3">
                             <h5 class="text-muted small text-uppercase fw-bold">Nombre del Titular</h5>
-                            <p class="fs-5">xxxxxxxxxxx</p>
+                            <p class="fs-5">Carla Monzon</p>
                         </div>
                     </div>
 
@@ -80,7 +79,7 @@
                             <a href="https://wa.me/3794944161" class="btn btn-success me-md-2">
                                 <i class="bi bi-whatsapp"></i> WhatsApp Ventas
                             </a>
-                            <a href="https://www.instagram.com/brightness__store/" class="btn btn-danger">
+                            <a href="https://www.instagram.com/brightness__store/" class="btn btn-danger" target>
                                 <i class="bi bi-instagram"></i> Instagram
                             </a>
                         </div>

@@ -7,10 +7,6 @@ Route::get('/', function () {
     return view('principal');
 });
 
-Route::get('/principal', function () {
-    return view('principal');
-});
-
 Route::get('/comercializacion', function () {
     return view('comercializacion');
 });
