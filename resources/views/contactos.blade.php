@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Contactos </title>
+  <title>Contactos Institucionales - Brightness.Store</title>
 
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,15 +22,78 @@
       </div>
     </div>
   </nav>
-  <div class="container">
-    <h1> La página con información de contacto, donde se publicará 
-      el nombre del titular de la empresa, la razón social, 
-      el domicilio legal, teléfonos, y otros medios de contacto 
-      que se consideren necesario. Deberá facilitar un cuestionario 
-      para que el potencial cliente se comunique con miembros de la 
-      empresa. 
-    </h1>
-  </div>
+  
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white text-center py-4">
+                    <h1 class="h3 mb-0">Información de Contacto</h1>
+                </div>
+                <div class="card-body p-5">
+                    
+                    <div class="row mb-4">
+                        <div class="col-sm-6 mb-3">
+                            <h5 class="text-muted small text-uppercase fw-bold">Razón Social</h5>
+                            <p class="fs-5">xxxxxxxxxxx</p>
+                        </div>
+                        <div class="col-sm-6 mb-3">
+                            <h5 class="text-muted small text-uppercase fw-bold">Nombre del Titular</h5>
+                            <p class="fs-5">xxxxxxxxxxx</p>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
+                        <div>
+                            <h5 class="mb-1">Domicilio Legal</h5>
+                            <p class="text-secondary">xxxxxxxxxxx, Corrientes Capital, Argentina (CP 3400)</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="bi bi-telephone-fill text-primary fs-3 me-3"></i>
+                        <div>
+                            <h5 class="mb-1">Teléfonos de Atención</h5>
+                            <p class="text-secondary">
+                                Administración: +xxxxxxxxxx <br>
+                                Ventas: +xxxxxxxx
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="bi bi-envelope-at-fill text-primary fs-3 me-3"></i>
+                        <div>
+                            <h5 class="mb-1">Correo Electrónico</h5>
+                            <p class="text-secondary">xxxxxxxxx@brightnessstore.com</p>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="text-center">
+                        <h5 class="mb-3">Otros canales de contacto</h5>
+                        <div class="d-grid gap-2 d-md-block">
+                            <a href="https://wa.me/3794944161" class="btn btn-success me-md-2">
+                                <i class="bi bi-whatsapp"></i> WhatsApp Ventas
+                            </a>
+                            <a href="https://instagram.com/brightness.store" class="btn btn-danger">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer bg-light text-center py-3">
+                    <small class="text-muted">Horario de atención: Lunes a Viernes de 09:00 a 18:00 hs.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
   <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
