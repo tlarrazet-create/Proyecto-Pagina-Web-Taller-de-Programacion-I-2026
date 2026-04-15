@@ -34,7 +34,7 @@
     </div>
   </header>
   
-  <div class="container mt-5">
+  <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-lg border-0">
@@ -56,7 +56,7 @@
 
                     <hr class="my-4">
 
-                    <div class="d-flex align-items-start mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-start mb-4">
                         <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Domicilio Legal</h5>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-start mb-4">
                         <i class="bi bi-telephone-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Teléfonos de Atención</h5>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-start mb-4">
                         <i class="bi bi-envelope-at-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Correo Electrónico</h5>
@@ -88,13 +88,16 @@
                     <div class="text-center">
                         <h5 class="mb-3">Otros canales de contacto</h5>
                         <div class="d-grid gap-2 d-md-block">
-                            <a href="https://wa.me/3794944161" class="btn btn-success me-md-2">
+                            <a href="https://wa.me/3794944161" 
+                               class="btn btn-success w-100 mb-2"
+                               target="_blank"
+                               rel="noopener noreferrer">
                                 <i class="bi bi-whatsapp"></i> WhatsApp Ventas
                             </a>
                             <a href="https://www.instagram.com/brightness__store/" 
-                               class="btn btn-danger" 
+                               class="btn btn-danger w-100 mb-2" 
                                target="_blank" 
-                               rel="noopener noreferrer">>
+                               rel="noopener noreferrer">
                                 <i class="bi bi-instagram"></i> Instagram
                             </a>
                         </div>

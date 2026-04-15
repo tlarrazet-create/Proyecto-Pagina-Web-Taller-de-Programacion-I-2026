@@ -19,7 +19,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand active" href="/">Brightness.Store</a>
-          <div class="navbar-nav d-flex gap-3">
+          <div class="navbar-nav flex-wrap justify-content-center gap-2">
             <a class="nav-link" href="/catalogos">Catalogos</a>
             <a class="nav-link active" href="/consultas">Consultas</a>
             <a class="nav-link active" href="/contactos">Contactos</a>
@@ -33,7 +33,7 @@
   </header>
 
   <div class="container-fluid d-flex justify-content-center">
-    <div class="row w-100">
+    <div class="row">
       <!--Columna izquierda (categorias)-->
       <div class="col-md-3">
         <div class="bg-light p-3 rounded">
@@ -54,7 +54,7 @@
       </div>
 
       <!--Columna central (productos)-->
-      </div class="col-md-9">
+      <div class="col-md-9">
         <div class="row">
 
           <div class="col-md-4 mb-4">
