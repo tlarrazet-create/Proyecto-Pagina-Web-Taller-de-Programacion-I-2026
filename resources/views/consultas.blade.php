@@ -41,7 +41,7 @@
 
         <div class="card shadow"> 
           <div class="card-body p-4">
-            <h2 class="mb-4">Formulario de contacto</h2> 
+            <h2 class="text-center mb-4">Formulario de contacto</h2> 
             
             <form action="{{ url('/consultas') }}" method="POST">
              @csrf

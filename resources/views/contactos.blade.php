@@ -94,7 +94,7 @@
                             <a href="https://www.instagram.com/brightness__store/" 
                                class="btn btn-danger" 
                                target="_blank" 
-                               rel="noopener noreferrer">>
+                               rel="noopener noreferrer">
                                 <i class="bi bi-instagram"></i> Instagram
                             </a>
                         </div>
