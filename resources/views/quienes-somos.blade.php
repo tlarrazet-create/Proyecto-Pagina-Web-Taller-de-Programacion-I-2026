@@ -34,7 +34,7 @@
     <h1> Pagina donde se detallara los objetivos y trayectoria del emprendimiento </h1>
   </div>
 
-  <footer class="footer-custom text-white mt-5 pt-4 pb-2">
+  <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
       <div class="row">
 
