@@ -4,6 +4,7 @@
     celeste pastel rgb(68, 172, 255) 
     celeste claro rgb(137, 212, 255) */
 
+  /*HEADER*/
 .header-custom {
     background-color: rgb(249, 246, 196);
 }
@@ -22,4 +23,18 @@
 
 .header-custom .navbar-brand.active, .header-custom .nav-link.active{
     color: rgb(255, 255, 255); 
+}
+
+/*FOOTER*/
+.footer-custom {
+    background-color: rgb(20, 20, 20);
+}
+
+.footer-link {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
 }

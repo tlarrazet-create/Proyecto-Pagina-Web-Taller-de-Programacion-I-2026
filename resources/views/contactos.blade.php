@@ -22,19 +22,16 @@
         <div class="container">
           <a class="navbar-brand active" href="/">Brightness.Store</a>
           <div class="navbar-nav d-flex gap-3">
-            <a class="nav-link active" href="/catalogos">Catalogos</a>
+            <a class="nav-link active" href="/catalogo">Catalogo</a>
             <a class="nav-link active" href="/consultas">Consultas</a>
-            <a class="nav-link" href="/contactos">Contactos</a>
             <a class="nav-link active" href="/comercializacion">Comercializacion</a>
-            <a class="nav-link active" href="/quienes-somos">Quienes somos?</a>
-            <a class="nav-link active" href="/terminos-y-uso">Terminos y uso</a>
           </div>
         </div>
       </nav>
     </div>
   </header>
   
-  <div class="container mt-5">
+    <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-lg border-0">
@@ -56,7 +53,7 @@
 
                     <hr class="my-4">
 
-                    <div class="d-flex align-items-start mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-start mb-4">
                         <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Domicilio Legal</h5>
@@ -64,7 +61,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-start mb-4">
                         <i class="bi bi-telephone-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Teléfonos de Atención</h5>
@@ -75,7 +72,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-start mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-start mb-4">
                         <i class="bi bi-envelope-at-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Correo Electrónico</h5>
@@ -88,11 +85,14 @@
                     <div class="text-center">
                         <h5 class="mb-3">Otros canales de contacto</h5>
                         <div class="d-grid gap-2 d-md-block">
-                            <a href="https://wa.me/3794944161" class="btn btn-success me-md-2">
+                            <a href="https://wa.me/3794944161" 
+                               class="btn btn-success w-100 mb-2"
+                               target="_blank"
+                               rel="noopener noreferrer">
                                 <i class="bi bi-whatsapp"></i> WhatsApp Ventas
                             </a>
                             <a href="https://www.instagram.com/brightness__store/" 
-                               class="btn btn-danger" 
+                               class="btn btn-danger w-100 mb-2" 
                                target="_blank" 
                                rel="noopener noreferrer">
                                 <i class="bi bi-instagram"></i> Instagram
@@ -107,7 +107,51 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
+
+    <footer class="footer-custom text-white mt-5 pt-4 pb-2">
+    <div class="container">
+      <div class="row">
+
+          <!-- Marca -->
+          <div class="col-md-4 mb-3">
+            <h5>Brightness.Store</h5>
+            <p class="small">
+              Tienda de accesorios. Calidad y estilo para cada ocasión.
+            </p>
+          </div>
+
+          <!-- Enlaces -->
+          <div class="col-md-4 mb-3">
+            <h5>Información</h5>
+            <ul class="list-unstyled">
+              <li><a href="/terminos-y-uso" class="footer-link">Términos y condiciones</a></li>
+              <li><a href="/contactos" class="footer-link">Contactos</a></li>
+              <li><a href="/quienes-somos" class="footer-link">Quiénes somos</a></li>
+            </ul>
+          </div>
+
+          <!-- Redes -->
+          <div class="col-md-4 mb-3">
+            <h5>Seguinos</h5>
+            <a href="https://www.instagram.com/brightness__store/" 
+              class="footer-link d-block"
+              target="_blank" 
+              rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+          </div>
+
+      </div>
+
+      <!-- Línea inferior -->
+      <hr class="border-light">
+
+      <div class="text-center small">
+        © 2026 Brightness.Store - Todos los derechos reservados
+      </div>
+    </div>
+  </footer>
 
   <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
