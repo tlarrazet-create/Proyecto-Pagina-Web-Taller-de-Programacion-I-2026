@@ -1,0 +1,25 @@
+/* Paleta de colores: 
+    rosa pastel rgb(254, 158, 199)
+    amarillo pastel rgb(249, 246, 196)
+    celeste pastel rgb(68, 172, 255) 
+    celeste claro rgb(137, 212, 255) */
+
+.header-custom {
+    background-color: rgb(249, 246, 196);
+}
+
+.header-custom .navbar{
+    background-color: black;
+}
+
+.header-custom .nav-link, .header-custom .navbar-brand {
+    color: rgb(68, 172, 255);
+}
+
+.header-custom .navbar-brand.active:hover, .header-custom .nav-link.active:hover {
+    color: rgb(137, 212, 255); 
+}
+
+.header-custom .navbar-brand.active, .header-custom .nav-link.active{
+    color: rgb(255, 255, 255); 
+}

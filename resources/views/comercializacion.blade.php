@@ -5,22 +5,35 @@
 
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 
 </head>
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="/">Brightness.Store</a>
-      <div class="navbar-nav">
-        <a class="nav-link active" href="/catalogos">Catalogos</a>
-        <a class="nav-link active" href="/consultas">Consultas</a>
-        <a class="nav-link active" href="/contactos">Contactos</a>
-        <a class="nav-link" href="/comercializacion">Comercializacion</a>
-        <a class="nav-link active" href="/quienes-somos">Quienes somos?</a>
-        <a class="nav-link active" href="/terminos-y-uso">Terminos y uso</a>
-      </div>
+  <header class="header-custom py-3 mb-4">
+    <div class="container-fluid d-flex flex-column align-items-center">
+
+      <!-- Logo centrado -->
+      <img src="{{ asset('images/logo/logo.jpeg') }}" 
+      alt="Logo de Brightness.Store" 
+      class="img-fluid mb-2"
+      style="max-height: 140px;">
+    
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand active" href="/">Brightness.Store</a>
+          <div class="navbar-nav d-flex gap-3">
+            <a class="nav-link active" href="/catalogos">Catalogos</a>
+            <a class="nav-link active" href="/consultas">Consultas</a>
+            <a class="nav-link active" href="/contactos">Contactos</a>
+            <a class="nav-link" href="/comercializacion">Comercializacion</a>
+            <a class="nav-link active" href="/quienes-somos">Quienes somos?</a>
+            <a class="nav-link active" href="/terminos-y-uso">Terminos y uso</a>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>
+  </header>
+
   <div class="container mt-5 mb-5">
     <div class="text-center mb-5">
         <h1 class="display-5 fw-bold">¿Cómo comprar en Brightness.Store?</h1>
