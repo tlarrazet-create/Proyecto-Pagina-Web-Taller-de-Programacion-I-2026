@@ -36,3 +36,15 @@ Route::post('/consultas', [ConsultaController::class, 'procesar']);
 Route::get('/exito', function () {
     return view('exito');
 });
+
+Route::get('/catalogo-abridores', function () {
+    return view('catalogo-abridores');
+});
+
+Route::get('/catalogo-escarapelas', function (){
+    return view('catalogo-escarapelas');
+});
+
+Route::get('/catalogo-argollas', function (){
+    return view('catalogo-argollas');
+});
