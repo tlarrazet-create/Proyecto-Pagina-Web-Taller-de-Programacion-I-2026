@@ -34,11 +34,11 @@
                     <div class="row mb-4">
                         <div class="col-sm-6 mb-3">
                             <h5 class="text-muted small text-uppercase fw-bold">Razón Social</h5>
-                            <p class="fs-5">xxxxxxxxxxx</p>
+                            <p class="fs-5">Brightness (Emprendimiento de ventas de accesorios)</p>
                         </div>
                         <div class="col-sm-6 mb-3">
                             <h5 class="text-muted small text-uppercase fw-bold">Nombre del Titular</h5>
-                            <p class="fs-5">Carla Monzon</p>
+                            <p class="fs-5">Carla Aylen Monzon</p>
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@
                         <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Domicilio Legal</h5>
-                            <p class="text-secondary">xxxxxxxxxxx, Corrientes Capital, Argentina (CP 3400)</p>
+                            <p class="text-secondary">Placido Martinez 1700, Corrientes Capital, Argentina (CP 3400)</p>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@
                         <i class="bi bi-envelope-at-fill text-primary fs-3 me-3"></i>
                         <div>
                             <h5 class="mb-1">Correo Electrónico</h5>
-                            <p class="text-secondary">xxxxxxxxx@brightnessstore.com</p>
+                            <p class="text-secondary">carla_monzon4@hotmail.com</p>
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@
 
                 </div>
                 <div class="card-footer bg-light text-center py-3">
-                    <small class="text-muted">Horario de atención: Lunes a Viernes de 09:00 a 18:00 hs.</small>
+                    <small class="text-muted">Horario de atención: Lunes a Sabado de 09:00 a 18:00 hs.</small>
                 </div>
             </div>
         </div>
