@@ -33,7 +33,7 @@
   <div class="container-fluid d-flex justify-content-center">
     <div class="row">
       <!--Columna izquierda (categorias)-->
-      <div class="col-md-3">
+      <div class="col-md-2 justify-content-center mb-4">
         <div class="bg-light p-3 rounded">
 
           <h5 class="mb-3">Categorías</h5>
@@ -41,7 +41,7 @@
           <ul class="list-group">
             <li class="list-group-item">
               Productos
-              <ul class="list-group mt-2">
+              <ul class="list-group mt-2 text-center">
                 <li>Abridores</li>
                 <li>Argollas</li>
                 <li>Escarapelas</li>
@@ -52,7 +52,7 @@
       </div>
 
       <!--Columna central (productos)-->
-      <div class="col-md-9">
+      <div class="col-md-10">
         <div class="row">
 
           <div class="col-md-4 mb-4">
