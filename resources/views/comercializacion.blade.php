@@ -33,7 +33,7 @@
 
   <div class="container mt-5 mb-5">
     <div class="text-center mb-5">
-        <h1 class="display-5 fw-bold">¿Cómo comprar en Brightness.Store?</h1>
+        <h1 class="display-5 fw-bold">¿Cómo comprar en BrightnesStore?</h1>
         <p class="lead text-muted">Todo lo que necesitás saber sobre pagos y envíos para tener tus accesorios.</p>
     </div>
 
@@ -128,7 +128,7 @@
     </div>
     </div>
 
-    <footer class="footer-custom text-white mt-5 pt-4 pb-2">
+    <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
       <div class="row">
 

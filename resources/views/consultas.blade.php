@@ -39,7 +39,7 @@
 
         <div class="card shadow"> 
           <div class="card-body p-4">
-            <h2 class="mb-4">Formulario de contacto</h2> 
+            <h2 class="text-center mb-4">Formulario de contacto</h2> 
             
             <form action="{{ url('/consultas') }}" method="POST">
              @csrf
@@ -71,7 +71,7 @@
     </div>
   </div>
 
-  <footer class="footer-custom text-white mt-5 pt-4 pb-2">
+  <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
       <div class="row">
 
