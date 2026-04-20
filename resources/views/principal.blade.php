@@ -8,36 +8,73 @@
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-  <header class="header-custom py-3 mb-4">
-    <div class="container-fluid d-flex flex-column align-items-center">
+  <header class="header-custom">
+    <div class="bg-primary text-white py-1">
+        <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <small><i class="bi bi-truck me-2"></i> Envíos gratis en compras superiores a $45.000</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-credit-card me-2"></i> 3 Cuotas sin interés con todas las tarjetas</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-gem me-2"></i> 15% OFF abonando por transferencia</small>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <!-- Logo centrado -->
-      <img src="{{ asset('images/logo/logo.jpeg') }}" 
-      alt="Logo de Brightness.Store" 
-      class="img-fluid mb-2"
-      style="max-height: 140px;">
-    
-      <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex flex-column align-items-center py-3">
+        <a href="/">
+            <img src="{{ asset('images/logo/logo.jpeg') }}" 
+                 alt="Logo de Brightness.Store" 
+                 class="img-fluid mb-2"
+                 style="max-height: 140px;">
+        </a>
+
+        <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="/">Brightness.Store</a>
-          <div class="navbar-nav d-flex gap-3">
+          <div class="navbar-nav flex-row justify-content-center gap-4 w-100">
             <a class="nav-link active" href="/catalogo">Catalogo</a>
             <a class="nav-link active" href="/consultas">Consultas</a>
             <a class="nav-link active" href="/comercializacion">Comercializacion</a>
           </div>
         </div>
-      </nav>
+      </nav>  
     </div>
   </header>
 
-  <div class="container">
-    <h1> Bienvenido a la página principal</h1>
-    <p> Esta es la página principal de nuestro sitio web. 
-      Aquí puedes encontrar información sobre nuestros servicios, 
-      productos y mucho más. Explora nuestro sitio para descubrir 
-      todo lo que tenemos para ofrecerte. ¡Gracias por visitarnos!
-    </p>
-  </div>
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{ asset('images/products/escarapela-bandera-mini.jpeg') }}" class="d-block w-100" alt="Escarapela Bandera Mini">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="{{ asset('images/products/argolla-clasica.jpeg') }}" class="d-block w-100" alt="Argolla Clásica">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="{{ asset('images/products/argolla-vibe.jpeg') }}" class="d-block w-100" alt="Argolla Vibe">
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
   <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
@@ -83,6 +120,6 @@
     </div>
   </footer>
 
-  <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>.
 </body>
 </html>

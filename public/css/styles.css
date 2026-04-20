@@ -43,3 +43,13 @@
 body, html{
     height: 100%;
 }
+
+#carouselExampleRide .carousel-item img {
+    height: 450px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+#miniCarousel .carousel-item {
+    transition: transform 0.8s ease-in-out;
+}

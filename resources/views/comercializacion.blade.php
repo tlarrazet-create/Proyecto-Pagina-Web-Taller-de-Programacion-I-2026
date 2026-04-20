@@ -9,25 +9,40 @@
 
 </head>
 <body class="bg-light">
-  <header class="header-custom py-3 mb-4">
-    <div class="container-fluid d-flex flex-column align-items-center">
+  <header class="header-custom">
+    <div class="bg-primary text-white py-1">
+        <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <small><i class="bi bi-truck me-2"></i> Envíos gratis en compras superiores a $45.000</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-credit-card me-2"></i> 3 Cuotas sin interés con todas las tarjetas</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-gem me-2"></i> 15% OFF abonando por transferencia</small>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <!-- Logo centrado -->
-      <img src="{{ asset('images/logo/logo.jpeg') }}" 
-      alt="Logo de Brightness.Store" 
-      class="img-fluid mb-2"
-      style="max-height: 140px;">
-    
-      <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex flex-column align-items-center py-3">
+        <a href="/">
+            <img src="{{ asset('images/logo/logo.jpeg') }}" 
+                 alt="Logo de Brightness.Store" 
+                 class="img-fluid mb-2"
+                 style="max-height: 140px;">
+        </a>
+
+        <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand active" href="/">Brightness.Store</a>
-          <div class="navbar-nav d-flex gap-3">
+          <div class="navbar-nav flex-row justify-content-center gap-4 w-100">
             <a class="nav-link active" href="/catalogo">Catalogo</a>
             <a class="nav-link active" href="/consultas">Consultas</a>
             <a class="nav-link" href="/comercializacion">Comercializacion</a>
           </div>
         </div>
-      </nav>
+      </nav>  
     </div>
   </header>
 
