@@ -53,3 +53,8 @@ body, html{
 #miniCarousel .carousel-item {
     transition: transform 0.8s ease-in-out;
 }
+
+.text-justify-custom {
+    text-align: justify;
+    text-justify: inter-word;
+}
