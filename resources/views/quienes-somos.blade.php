@@ -92,7 +92,7 @@
 
             <div class="card h-100 border-0 shadow-sm text-center p-4">
                 <div class="mx-auto mb-4" style="width: 160px; height: 160px; overflow: hidden; border-radius: 50%; border: 3px solid #f9f6c4;">
-                    <img src="{{ asset('images/creadores/.jpg') }}" alt="Foto de la Fundadora" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="{{ asset('images/creadores/FotoCarla.jpeg') }}" alt="Foto de la Fundadora" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <div class="card-body p-0">
                     <h4 class="fw-bold">Monzon Carla</h4>
@@ -176,7 +176,17 @@
                     </div>
                     <div class="card-body p-0">
                         <h4 class="fw-bold">Pannunzio Nicolas</h4>
-                        <p class="mb-2" style="color: rgb(241, 232, 42); font-weight: 500;">Programador / Diseñador Web</p>
+                        <p class="mb-2" style="color: rgb(241, 232, 42); font-weight: 500;">Desarrollador y diseñador Web</p>
+
+                        <!-- Redes sociales -->
+                        <div class="d-flex justify-content-center gap-3 mt-3">
+                            <a href="https://github.com/mNicolasPannunzio" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/mario-nicolas-pannunzio-653887396/" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -188,7 +198,17 @@
                     </div>
                     <div class="card-body p-0">
                         <h4 class="fw-bold">Larrazet Tomas</h4>
-                        <p class="mb-2" style="color: rgb(241, 232, 42); font-weight: 500;">Programador / Diseñador Web</p>
+                        <p class="mb-2" style="color: rgb(241, 232, 42); font-weight: 500;">Desarrollador y diseñador Web</p>
+
+                        <!-- Redes sociales -->
+                        <div class="d-flex justify-content-center gap-3 mt-3">
+                            <a href="https://github.com/tlarrazet-create" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
