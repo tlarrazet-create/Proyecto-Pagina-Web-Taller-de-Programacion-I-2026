@@ -48,3 +48,19 @@ Route::get('/catalogo-escarapelas', function (){
 Route::get('/catalogo-argollas', function (){
     return view('catalogo-argollas');
 });
+
+Route::get('/RegistroUsuario', function (){
+    return view('RegistroUsuario');
+});
+
+Route::post('/RegistroUsuario', function () {
+    return view('exito1');
+});
+
+Route::get('/logIn', function (){
+    return view('logIn');
+});
+
+Route::post('/ProcesarLogin', function () {
+    return redirect('/'); // Esto te manda directo a la página principal
+});

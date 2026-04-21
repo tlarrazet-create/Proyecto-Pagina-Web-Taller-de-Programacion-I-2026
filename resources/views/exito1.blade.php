@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Consultas</title>
+  <title> Registro exitoso </title>
 
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
-<body>
+<body class="bg-light d-flex flex-column" style="min-height: 100vh;">
   <header class="header-custom">
+
     <div class="bg-primary text-white py-1">
         <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -59,54 +60,35 @@
             </div>
             
           </div>
-        </nav> 
+        </nav>  
     </div>
   </header>
 
-  <div class="container mt-5 mb-5">
+<main class="flex-grow-1 d-flex align-items-center justify-content-center py-5">
+    <div class="container text-center">
     <div class="row justify-content-center">
-      
-      <div class="col-md-8">
-        
-        <h1 class="text-center mb-3">Formulario de Consultas</h1>
-          <p class="text-center lead text-muted mb-5 mx-auto" style="max-width: 700px;">
-              En Brightness.Store estamos para ayudarte en todo momento durante tu experiencia de compra. 
-              Dejanos tu mensaje si tenés alguna duda sobre algún producto, métodos de pago, compras mayoristas, etc.
-          </p>
-
-        <div class="card border-warning shadow"> 
-          <div class="card-body p-4">
-            <h2 class="text-center mb-4">Formulario de contacto</h2> 
+      <div class="col-md-6">
+        <div class="card border-0 shadow-lg p-5">
+          <div class="card-body">
             
-            <form action="{{ url('/consultas') }}" method="POST">
-             @csrf
+            <i class="bi bi-check-circle-fill text-success" style="font-size: 5rem;"></i>
+            
+            <h2 class="fw-bold mt-4">¡Registro Exitoso!</h2>
+            <p class="text-muted fs-5 mt-3">
+              Tu cuenta ha sido creada correctamente. Ya sos parte de la comunidad.
+            </p>
 
-             <div class="mb-3"> 
-               <label class="form-label">Nombre</label>
-               <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre"> 
-             </div> 
-             
-             <div class="mb-3">
-               <label class="form-label">Email</label>
-               <input type="email" name="email" class="form-control" placeholder="Ingrese su email"> 
-             </div>
-               
-             <div class="mb-3">
-               <label class="form-label">Mensaje</label>
-               <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese su mensaje"></textarea>
-             </div>
-                  
-             <div class="d-grid">
-               <button type="submit" class="btn btn-warning btn-lg">Enviar mensaje</button>
-             </div>
-            </form>
+            <div class="d-grid gap-2 mt-5">
+              <a href="/login" class="btn btn-dark btn-lg">Ir a Iniciar Sesión</a>
+              <a href="/" class="btn btn-outline-secondary">Volver al Inicio</a>
+            </div>
 
           </div>
         </div>
-
       </div>
     </div>
   </div>
+    </main>
 
   <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
@@ -151,7 +133,6 @@
       </div>
     </div>
   </footer>
-
 
   <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>

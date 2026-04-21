@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Consultas</title>
+  <title> Quienes somos? </title>
 
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -59,30 +59,24 @@
             </div>
             
           </div>
-        </nav> 
+        </nav>  
     </div>
   </header>
 
-  <div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5">
     <div class="row justify-content-center">
       
-      <div class="col-md-8">
-        
-        <h1 class="text-center mb-3">Formulario de Consultas</h1>
-          <p class="text-center lead text-muted mb-5 mx-auto" style="max-width: 700px;">
-              En Brightness.Store estamos para ayudarte en todo momento durante tu experiencia de compra. 
-              Dejanos tu mensaje si tenés alguna duda sobre algún producto, métodos de pago, compras mayoristas, etc.
-          </p>
+      <div class="col-md-4">
 
         <div class="card border-warning shadow"> 
           <div class="card-body p-4">
-            <h2 class="text-center mb-4">Formulario de contacto</h2> 
+            <h2 class="text-center mb-4">Formulario de registro</h2> 
             
-            <form action="{{ url('/consultas') }}" method="POST">
+            <form action="{{ url('/RegistroUsuario') }}" method="POST">
              @csrf
 
              <div class="mb-3"> 
-               <label class="form-label">Nombre</label>
+               <label class="form-label">Nombre Completo</label>
                <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre"> 
              </div> 
              
@@ -92,12 +86,22 @@
              </div>
                
              <div class="mb-3">
-               <label class="form-label">Mensaje</label>
-               <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese su mensaje"></textarea>
+               <label class="form-label">Direccion</label>
+               <input type="text" name="direccion" class="form-control" placeholder="Ingrese su direccion"> 
+             </div>
+
+             <div class="mb-3">
+               <label class="form-label">Contraseña</label>
+               <input type="password" name="contraseña" class="form-control" placeholder="Ingrese su contraseña"> 
+             </div>
+
+             <div class="mb-3">
+               <label class="form-label">Repita contraseña</label>
+               <input type="password" name="contraseña1" class="form-control" placeholder="Ingrese nuevamente su contraseña"> 
              </div>
                   
              <div class="d-grid">
-               <button type="submit" class="btn btn-warning btn-lg">Enviar mensaje</button>
+               <button type="submit" class="btn btn-info btn-lg">Confirmar registro</button>
              </div>
             </form>
 
@@ -107,7 +111,7 @@
       </div>
     </div>
   </div>
-
+  
   <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
       <div class="row">
@@ -151,7 +155,6 @@
       </div>
     </div>
   </footer>
-
 
   <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>

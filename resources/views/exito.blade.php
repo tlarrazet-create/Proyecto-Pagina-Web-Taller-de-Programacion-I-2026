@@ -9,45 +9,79 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-  <header class="header-custom py-3 mb-4">
-    <div class="container-fluid d-flex flex-column align-items-center">
-
-      <!-- Logo centrado -->
-      <img src="{{ asset('images/logo/logo.jpeg') }}" 
-      alt="Logo de Brightness.Store" 
-      class="img-fluid mb-2"
-      style="max-height: 140px;">
-    
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand active" href="/">Brightness.Store</a>
-          <div class="navbar-nav d-flex gap-3">
-            <a class="nav-link active" href="/catalogo">Catalogo</a>
-            <a class="nav-link active" href="/consultas">Consultas</a>
-            <a class="nav-link active" href="/comercializacion">Comercializacion</a>
-          </div>
+  <header class="header-custom">
+    <div class="bg-primary text-white py-1">
+        <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <small><i class="bi bi-truck me-2"></i> Envíos gratis en compras superiores a $45.000</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-credit-card me-2"></i> 3 Cuotas sin interés con todas las tarjetas</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-gem me-2"></i> 15% OFF abonando por transferencia</small>
+                </div>
+            </div>
         </div>
-      </nav>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center py-3">
+        <a href="/">
+            <img src="{{ asset('images/logo/logo.jpeg') }}" 
+                 alt="Logo de Brightness.Store" 
+                 class="img-fluid mb-2"
+                 style="max-height: 140px;">
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+          <div class="container flex-column justify-content-center">
+            
+            <button class="navbar-toggler mb-2 border-0 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir menú">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center w-100" id="menuNavegacion">
+              <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
+                
+                <a class="nav-link active" href="/catalogo">Catálogo</a>
+                <a class="nav-link active" href="/consultas">Consultas</a>
+                <a class="nav-link active" href="/comercializacion">Comercialización</a>
+                
+                <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
+                
+                <hr class="d-lg-none w-50 mx-auto my-1" style="opacity: 0.1;">
+
+                <a href="/logIn" class="btn btn-outline-dark rounded-pill px-4 fw-bold shadow-sm d-inline-flex align-items-center mt-2 mt-lg-0">
+                  <i class="bi bi-person-circle me-2 fs-5"></i> Ingresar
+                </a>
+
+              </div>
+            </div>
+            
+          </div>
+        </nav> 
     </div>
   </header>
 
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card border-success shadow">
+            <div class="card border-warning shadow">
                 <div class="card-body text-center p-5">
-                    <h2 class="text-success mb-4">¡Éxito!</h2>
+                    <i class="bi bi-check-circle-fill text-success" style="font-size: 5rem;"></i>
+                    <h2 class="text-warning mb-4">¡Éxito!</h2>
 
                         {{-- Mensaje personalizado con los datos recibidos del controlador --}}
                         <p class="lead">
-                            Hola <strong>{{ $nombre }}</strong>, qué bueno recibir tu mensaje. 
-                            Un miembro del equipo de ventas se pondrá en contacto con vos al correo: 
-                            <strong>{{ $email }}</strong>.
+                            Hola <strong>{{ $nombre }}</strong>, encantados de estar en contacto, un asesor comercial se contactara contigo 
+                            al mail <strong>{{ $email}}, saludos!
+                            </strong> 
                         </p>
 
                         <p class="mt-4">¡Muchas gracias!</p>
 
-                    <a href="/" class="btn btn-outline-success mt-3">Volver al inicio</a>
+                    <a href="/" class="btn btn-outline-warning mt-3">Volver al inicio</a>
                 </div>
             </div>
         </div>

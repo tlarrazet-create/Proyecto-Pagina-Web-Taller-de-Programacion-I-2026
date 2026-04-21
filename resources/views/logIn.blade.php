@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Consultas</title>
+  <title> Iniciar Sesión - Brightness.Store </title>
 
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
-<body>
-  <header class="header-custom">
+<body class="bg-light"> <header class="header-custom">
     <div class="bg-primary text-white py-1">
         <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -59,68 +58,57 @@
             </div>
             
           </div>
-        </nav> 
+        </nav>  
     </div>
   </header>
 
-  <div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5">
     <div class="row justify-content-center">
       
-      <div class="col-md-8">
-        
-        <h1 class="text-center mb-3">Formulario de Consultas</h1>
-          <p class="text-center lead text-muted mb-5 mx-auto" style="max-width: 700px;">
-              En Brightness.Store estamos para ayudarte en todo momento durante tu experiencia de compra. 
-              Dejanos tu mensaje si tenés alguna duda sobre algún producto, métodos de pago, compras mayoristas, etc.
-          </p>
-
-        <div class="card border-warning shadow"> 
-          <div class="card-body p-4">
-            <h2 class="text-center mb-4">Formulario de contacto</h2> 
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg"> <div class="card-body p-5"> <div class="text-center mb-4">
+                <i class="bi bi-person-circle text-muted" style="font-size: 3rem;"></i>
+                <h3 class="mt-2 fw-bold">Iniciar Sesión</h3> 
+                <p class="text-muted small">Ingresá a tu cuenta de Brightness.Store</p>
+            </div>
             
-            <form action="{{ url('/consultas') }}" method="POST">
+            <form action="{{ url('/ProcesarLogin') }}" method="POST">
              @csrf
-
-             <div class="mb-3"> 
-               <label class="form-label">Nombre</label>
-               <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre"> 
-             </div> 
              
-             <div class="mb-3">
-               <label class="form-label">Email</label>
-               <input type="email" name="email" class="form-control" placeholder="Ingrese su email"> 
+             <div class="mb-4">
+               <label class="form-label fw-bold">Email</label>
+               <input type="email" name="email" class="form-control form-control-lg" placeholder="ejemplo@correo.com" required> 
              </div>
-               
-             <div class="mb-3">
-               <label class="form-label">Mensaje</label>
-               <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese su mensaje"></textarea>
+
+             <div class="mb-4">
+               <label class="form-label fw-bold">Contraseña</label>
+               <input type="password" name="password" class="form-control form-control-lg" placeholder="Tu contraseña" required> 
              </div>
                   
-             <div class="d-grid">
-               <button type="submit" class="btn btn-warning btn-lg">Enviar mensaje</button>
+             <div class="d-grid mb-3">
+               <button type="submit" class="btn btn-dark btn-lg">Ingresar</button>
              </div>
+
+             <div class="text-center mt-4">
+                 <p class="small mb-1"><a class="text-decoration-none text-muted">¿Olvidaste tu contraseña?</a></p>
+                 <p class="small">¿No tenés cuenta? <a href="/RegistroUsuario" class="text-decoration-none fw-bold text-dark">Registrate acá</a></p>
+             </div>
+
             </form>
 
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
+  
   <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
       <div class="row">
-
-          <!-- Marca -->
           <div class="col-md-4 mb-3">
             <h5>Brightness.Store</h5>
-            <p class="small">
-              Tienda de accesorios. Calidad y estilo para cada ocasión.
-            </p>
+            <p class="small">Tienda de accesorios. Calidad y estilo para cada ocasión.</p>
           </div>
-
-          <!-- Enlaces -->
           <div class="col-md-4 mb-3">
             <h5>Información</h5>
             <ul class="list-unstyled">
@@ -129,29 +117,19 @@
               <li><a href="/quienes-somos" class="footer-link">Quiénes somos</a></li>
             </ul>
           </div>
-
-          <!-- Redes -->
           <div class="col-md-4 mb-3">
             <h5>Seguinos</h5>
-            <a href="https://www.instagram.com/brightness__store/" 
-              class="footer-link d-block"
-              target="_blank" 
-              rel="noopener noreferrer">
+            <a href="https://www.instagram.com/brightness__store/" class="footer-link d-block" target="_blank" rel="noopener noreferrer">
               <i class="bi bi-instagram"></i> Instagram
             </a>
           </div>
-
       </div>
-
-      <!-- Línea inferior -->
       <hr class="border-light">
-
       <div class="text-center small">
         © 2026 Brightness.Store - Todos los derechos reservados
       </div>
     </div>
   </footer>
-
 
   <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>

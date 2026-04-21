@@ -9,33 +9,66 @@
 
 </head>
 <body>
-  <header class="header-custom py-3 mb-4">
-    <div class="container-fluid d-flex flex-column align-items-center">
-
-      <!-- Logo centrado -->
-      <img src="{{ asset('images/logo/logo.jpeg') }}" 
-      alt="Logo de Brightness.Store" 
-      class="img-fluid mb-2"
-      style="max-height: 140px;">
-    
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand active" href="/">Brightness.Store</a>
-          <div class="navbar-nav d-flex gap-3">
-            <a class="nav-link active" href="/catalogo">Catalogo</a>
-            <a class="nav-link active" href="/consultas">Consultas</a>
-            <a class="nav-link active" href="/comercializacion">Comercializacion</a>
-          </div>
+  <header class="header-custom">
+    <div class="bg-primary text-white py-1">
+        <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <small><i class="bi bi-truck me-2"></i> Envíos gratis en compras superiores a $45.000</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-credit-card me-2"></i> 3 Cuotas sin interés con todas las tarjetas</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-gem me-2"></i> 15% OFF abonando por transferencia</small>
+                </div>
+            </div>
         </div>
-      </nav>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center py-3">
+        <a href="/">
+            <img src="{{ asset('images/logo/logo.jpeg') }}" 
+                 alt="Logo de Brightness.Store" 
+                 class="img-fluid mb-2"
+                 style="max-height: 140px;">
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+          <div class="container flex-column justify-content-center">
+            
+            <button class="navbar-toggler mb-2 border-0 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir menú">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center w-100" id="menuNavegacion">
+              <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
+                
+                <a class="nav-link active" href="/catalogo">Catálogo</a>
+                <a class="nav-link active" href="/consultas">Consultas</a>
+                <a class="nav-link active" href="/comercializacion">Comercialización</a>
+                
+                <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
+                
+                <hr class="d-lg-none w-50 mx-auto my-1" style="opacity: 0.1;">
+
+                <a href="/logIn" class="btn btn-outline-dark rounded-pill px-4 fw-bold shadow-sm d-inline-flex align-items-center mt-2 mt-lg-0">
+                  <i class="bi bi-person-circle me-2 fs-5"></i> Ingresar
+                </a>
+
+              </div>
+            </div>
+            
+          </div>
+        </nav>  
     </div>
   </header>
   
-    <div class="container">
+    <div class="container mt-5 mb-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-lg border-0">
-                <div class="card-header bg-primary text-white text-center py-4">
+                <div class="card-header header-custom text-dark text-center py-4">
                     <h1 class="h3 mb-0">Información de Contacto</h1>
                 </div>
                 <div class="card-body p-5">
@@ -54,7 +87,7 @@
                     <hr class="my-4">
 
                     <div class="d-flex flex-column flex-md-row align-items-start mb-4">
-                        <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
+                        <i class="bi bi-geo-alt-fill fs-3 me-3" style="color:   rgb(239, 231, 79);"></i>
                         <div>
                             <h5 class="mb-1">Domicilio Legal</h5>
                             <p class="text-secondary">Placido Martinez 1700, Corrientes Capital, Argentina (CP 3400)</p>
@@ -62,18 +95,18 @@
                     </div>
 
                     <div class="d-flex flex-column flex-md-row align-items-start mb-4">
-                        <i class="bi bi-telephone-fill text-primary fs-3 me-3"></i>
+                        <i class="bi bi-telephone-fill  fs-3 me-3" style="color:   rgb(239, 231, 79);"></i>
                         <div>
                             <h5 class="mb-1">Teléfonos de Atención</h5>
                             <p class="text-secondary">
-                                Administración: +xxxxxxxxxx <br>
-                                Ventas: +xxxxxxxx
+                                Administración: +549 3794 854761 <br>
+                                Ventas: +549 3794 514267
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row align-items-start mb-4">
-                        <i class="bi bi-envelope-at-fill text-primary fs-3 me-3"></i>
+                        <i class="bi bi-envelope-at-fill fs-3 me-3"style="color:  rgb(239, 231, 79);"></i>
                         <div>
                             <h5 class="mb-1">Correo Electrónico</h5>
                             <p class="text-secondary">carla_monzon4@hotmail.com</p>

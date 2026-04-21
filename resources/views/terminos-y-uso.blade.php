@@ -8,25 +8,58 @@
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 </head>
 <body>
-  <header class="header-custom py-3 mb-4">
-    <div class="container-fluid d-flex flex-column align-items-center">
-
-      <!-- Logo centrado -->
-      <img src="{{ asset('images/logo/logo.jpeg') }}" 
-      alt="Logo de Brightness.Store" 
-      class="img-fluid mb-2"
-      style="max-height: 140px;">
-    
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand active" href="/">Brightness.Store</a>
-          <div class="navbar-nav d-flex gap-3">
-            <a class="nav-link active" href="/catalogo">Catalogo</a>
-            <a class="nav-link active" href="/consultas">Consultas</a>
-            <a class="nav-link active" href="/comercializacion">Comercializacion</a>
-          </div>
+  <header class="header-custom">
+    <div class="bg-primary text-white py-1">
+        <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <small><i class="bi bi-truck me-2"></i> Envíos gratis en compras superiores a $45.000</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-credit-card me-2"></i> 3 Cuotas sin interés con todas las tarjetas</small>
+                </div>
+                <div class="carousel-item text-center">
+                    <small><i class="bi bi-gem me-2"></i> 15% OFF abonando por transferencia</small>
+                </div>
+            </div>
         </div>
-      </nav>
+    </div>
+
+    <div class="container-fluid d-flex flex-column align-items-center py-3">
+        <a href="/">
+            <img src="{{ asset('images/logo/logo.jpeg') }}" 
+                 alt="Logo de Brightness.Store" 
+                 class="img-fluid mb-2"
+                 style="max-height: 140px;">
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+          <div class="container flex-column justify-content-center">
+            
+            <button class="navbar-toggler mb-2 border-0 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir menú">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center w-100" id="menuNavegacion">
+              <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
+                
+                <a class="nav-link active" href="/catalogo">Catálogo</a>
+                <a class="nav-link active" href="/consultas">Consultas</a>
+                <a class="nav-link active" href="/comercializacion">Comercialización</a>
+                
+                <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
+                
+                <hr class="d-lg-none w-50 mx-auto my-1" style="opacity: 0.1;">
+
+                <a href="/logIn" class="btn btn-outline-dark rounded-pill px-4 fw-bold shadow-sm d-inline-flex align-items-center mt-2 mt-lg-0">
+                  <i class="bi bi-person-circle me-2 fs-5"></i> Ingresar
+                </a>
+
+              </div>
+            </div>
+            
+          </div>
+        </nav> 
     </div>
   </header>
 
@@ -38,27 +71,27 @@
         
         <div class="card-body p-4">
             <section class="mb-4">
-                <h2 class="h5 text-primary">1. Información General</h2>
+                <h2 class= "h5 text-warning">1. Información General</h2>
                 <p>El presente documento establece los términos y condiciones que regulan el uso del sitio web <strong>Brightness.Store</strong>, dedicado a la comercialización de accesorios femeninos (aros, anillos y complementos). Al navegar y comprar en nuestro sitio, aceptas cumplir con estas normativas.</p>
             </section>
 
             <section class="mb-4">
-                <h2 class="h5 text-primary">2. Servicios y Productos</h2>
+                <h2 class="h5 text-warning">2. Servicios y Productos</h2>
                 <p>Ofrecemos una selección de accesorios de moda. La percepción visual de los colores y detalles puede variar según el dispositivo del usuario. Todos los precios incluyen los impuestos correspondientes.</p>
             </section>
 
             <section class="mb-4">
-                <h2 class="h5 text-primary">3. Garantía y Soporte Postventa</h2>
+                <h2 class="h5 text-warning">3. Garantía y Soporte Postventa</h2>
                 <p>Contamos con una garantía de <strong>30 días</strong> por defectos de fabricación. <strong>Importante:</strong> Por razones de higiene, los aros no tienen cambio, salvo falla evidente de fábrica.</p>
             </section>
 
             <section class="mb-4">
-                <h2 class="h5 text-primary">4. Entregas y Tiempos de Envío</h2>
+                <h2 class="h5 text-warning">4. Entregas y Tiempos de Envío</h2>
                 <p>Procesamos las órdenes en 24-48 horas hábiles. El tiempo de envío estimado es de 3 a 7 días hábiles, dependiendo de la ubicación geográfica.</p>
             </section>
 
             <section>
-                <h2 class="h5 text-primary">5. Políticas de Privacidad</h2>
+                <h2 class="h5 text-warning">5. Políticas de Privacidad</h2>
                 <p>Tus datos (nombre, email, domicilio) se utilizan exclusivamente para procesar tu compra. Contamos con protocolos SSL para garantizar transacciones 100% seguras.</p>
             </section>
 

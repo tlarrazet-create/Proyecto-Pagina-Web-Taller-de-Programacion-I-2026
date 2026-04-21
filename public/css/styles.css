@@ -45,7 +45,7 @@ body, html{
 }
 
 #carouselExampleRide .carousel-item img {
-    height: 450px !important;
+    height: 700px !important;
     object-fit: cover !important;
     object-position: center !important;
 }

@@ -20,4 +20,8 @@ class ConsultaController extends Controller
             'email' => $email 
     ]); 
     }
+    public function procesar1(Request $request)
+    {
+        return view('exito1');
+    }
 }

@@ -33,15 +33,33 @@
                  style="max-height: 140px;">
         </a>
 
-        <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <div class="navbar-nav flex-row justify-content-center gap-4 w-100">
-            <a class="nav-link" href="/catalogo">Catalogo</a>
-            <a class="nav-link active" href="/consultas">Consultas</a>
-            <a class="nav-link active" href="/comercializacion">Comercializacion</a>
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+          <div class="container flex-column justify-content-center">
+            
+            <button class="navbar-toggler mb-2 border-0 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir menú">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center w-100" id="menuNavegacion">
+              <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
+                
+                <a class="nav-link active" href="/catalogo">Catálogo</a>
+                <a class="nav-link active" href="/consultas">Consultas</a>
+                <a class="nav-link active" href="/comercializacion">Comercialización</a>
+                
+                <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
+                
+                <hr class="d-lg-none w-50 mx-auto my-1" style="opacity: 0.1;">
+
+                <a href="/logIn" class="btn btn-outline-dark rounded-pill px-4 fw-bold shadow-sm d-inline-flex align-items-center mt-2 mt-lg-0">
+                  <i class="bi bi-person-circle me-2 fs-5"></i> Ingresar
+                </a>
+
+              </div>
+            </div>
+            
           </div>
-        </div>
-      </nav>  
+        </nav>  
     </div>
   </header>
 
@@ -54,7 +72,7 @@
           <h5 class="mb-3 ">Categorías</h5>
 
           <div class="dropdown">
-            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="btn btn-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Productos
             </a>
             <ul class="dropdown-menu">
