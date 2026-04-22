@@ -79,7 +79,7 @@
             </p>
 
             <div class="d-grid gap-2 mt-5">
-              <a href="/login" class="btn btn-dark btn-lg">Ir a Iniciar Sesión</a>
+              <a href="/logIn" class="btn btn-dark btn-lg">Ir a Iniciar Sesión</a>
               <a href="/" class="btn btn-outline-secondary">Volver al Inicio</a>
             </div>
 
