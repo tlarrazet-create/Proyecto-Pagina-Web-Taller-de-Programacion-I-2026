@@ -144,6 +144,51 @@
     </div>
     </div>
 
+     <div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+      
+      <div class="col-md-8">
+        
+        <h1 class="text-center mb-3">Formulario de Consultas</h1>
+          <p class="text-center lead text-muted mb-5 mx-auto" style="max-width: 700px;">
+              En Brightness.Store estamos para ayudarte en todo momento durante tu experiencia de compra. 
+              Dejanos tu mensaje si tenés alguna duda sobre algún producto, métodos de pago, compras mayoristas, etc.
+          </p>
+
+        <div class="card border-warning shadow"> 
+          <div class="card-body p-4">
+            <h2 class="text-center mb-4">Formulario de contacto</h2> 
+            
+            <form action="{{ url('/contactos') }}" method="POST">
+             @csrf
+
+             <div class="mb-3"> 
+               <label class="form-label">Nombre</label>
+               <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre"> 
+             </div> 
+             
+             <div class="mb-3">
+               <label class="form-label">Email</label>
+               <input type="email" name="email" class="form-control" placeholder="Ingrese su email"> 
+             </div>
+               
+             <div class="mb-3">
+               <label class="form-label">Mensaje</label>
+               <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese su mensaje"></textarea>
+             </div>
+                  
+             <div class="d-grid">
+               <button type="submit" class="btn btn-warning btn-lg">Enviar mensaje</button>
+             </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
     <footer class="footer-custom text-black mt-5 pt-4 pb-2">
     <div class="container">
       <div class="row">

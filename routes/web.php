@@ -31,7 +31,7 @@ Route::get('/consultas', function () {
     return view('consultas');
 });
 
-Route::post('/consultas', [ConsultaController::class, 'procesar']);
+Route::post('/contactos', [ConsultaController::class, 'procesar']);
 
 Route::get('/exito', function () {
     return view('exito');
