@@ -79,7 +79,7 @@
             </p>
 
             <div class="d-grid gap-2 mt-5">
-              <a href="/login" class="btn btn-dark btn-lg">Ir a Iniciar Sesión</a>
+              <a href="/logIn" class="btn btn-dark btn-lg">Ir a Iniciar Sesión</a>
               <a href="/" class="btn btn-outline-secondary">Volver al Inicio</a>
             </div>
 
@@ -96,7 +96,7 @@
 
           <!-- Marca -->
           <div class="col-md-4 mb-3">
-            <h5>Brightness.Store</h5>
+            <h5><a href="/" class="footer-link"> Brightness.Store</h5></a>
             <p class="small">
               Tienda de accesorios. Calidad y estilo para cada ocasión.
             </p>
