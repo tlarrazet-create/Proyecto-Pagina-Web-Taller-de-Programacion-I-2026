@@ -83,7 +83,7 @@
     </div>
   </section>
 
-  <div class="container mt-3">
+  <div class="container mt-3 mb-5">
     <div class="text-center mb-4">
         <h2 class="fw-bold">Nuestros Destacados</h2>
         <p class="text-muted">Descubrí las piezas más elegidas de Brightness.Store</p>
