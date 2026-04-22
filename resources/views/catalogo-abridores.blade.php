@@ -44,10 +44,10 @@
               <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
                 
                 <a class="nav-link active" href="/catalogo">Catálogo</a>
-                <a class="nav-link active" href="/consultas">Contactos</a>
+                <a class="nav-link active" href="/contactos">Contactos</a>
                 <a class="nav-link active" href="/comercializacion">Comercialización</a>
-                <a class="nav-link active" href="/catalogo">Quienes Somos</a>
-                <a class="nav-link active" href="/consultas">Terminos y condiciones</a>
+                <a class="nav-link active" href="/quienes-somos">Quienes Somos</a>
+                <a class="nav-link active" href="/terminos-y-uso">Terminos y condiciones</a>
                 
                 <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
                 

@@ -44,10 +44,10 @@
               <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
                 
                 <a class="nav-link active" href="/catalogo">Catálogo</a>
-                <a class="nav-link active" href="/consultas">Contactos</a>
+                <a class="nav-link active" href="/contactos">Contactos</a>
                 <a class="nav-link active" href="/comercializacion">Comercialización</a>
-                <a class="nav-link active" href="/catalogo">Quienes Somos</a>
-                <a class="nav-link active" href="/consultas">Terminos y condiciones</a>
+                <a class="nav-link active" href="/quienes-somos">Quienes Somos</a>
+                <a class="nav-link active" href="/terminos-y-uso">Terminos y condiciones</a>
                 
                 <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
                 
@@ -79,31 +79,31 @@
 
              <div class="mb-3"> 
                <label class="form-label">Nombre Completo</label>
-               <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre"> 
+               <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre" required> 
              </div> 
              
              <div class="mb-3">
                <label class="form-label">Email</label>
-               <input type="email" name="email" class="form-control" placeholder="Ingrese su email"> 
+               <input type="email" name="email" class="form-control" placeholder="Ingrese su email" required> 
              </div>
                
              <div class="mb-3">
                <label class="form-label">Direccion</label>
-               <input type="text" name="direccion" class="form-control" placeholder="Ingrese su direccion"> 
+               <input type="text" name="direccion" class="form-control" placeholder="Ingrese su direccion" required> 
              </div>
 
              <div class="mb-3">
                <label class="form-label">Contraseña</label>
-               <input type="password" name="contraseña" class="form-control" placeholder="Ingrese su contraseña"> 
+               <input type="password" name="contraseña" class="form-control" placeholder="Ingrese su contraseña" required> 
              </div>
 
              <div class="mb-3">
                <label class="form-label">Repita contraseña</label>
-               <input type="password" name="contraseña1" class="form-control" placeholder="Ingrese nuevamente su contraseña"> 
+               <input type="password" name="contraseña1" class="form-control" placeholder="Ingrese nuevamente su contraseña" required> 
              </div>
                   
              <div class="d-grid">
-               <button type="submit" class="btn btn-info btn-lg">Confirmar registro</button>
+               <button type="submit" class="btn btn-dark btn-lg">Confirmar registro</button>
              </div>
             </form>
 
