@@ -45,8 +45,10 @@
                 <div class="navbar-nav align-items-center text-center gap-3 gap-lg-4 pb-3 pb-lg-0">
                     
                     <a class="nav-link active" href="/catalogo">Catálogo</a>
-                    <a class="nav-link active" href="/consultas">Consultas</a>
-                    <a class="nav-link active" href="/comercializacion">Comercialización</a>
+                <a class="nav-link active" href="/consultas">Contactos</a>
+                <a class="nav-link active" href="/comercializacion">Comercialización</a>
+                <a class="nav-link active" href="/catalogo">Quienes Somos</a>
+                <a class="nav-link active" href="/consultas">Terminos y condiciones</a>
                     
                     <div class="vr d-none d-lg-block" style="height: 25px; opacity: 0.2;"></div>
                     
@@ -75,13 +77,13 @@
             <div class="card h-100 shadow-sm border-0 text-center p-4">
                 
                 <i class="bi bi-credit-card " style="font-size: 3rem; color:   rgb(239, 231, 79);"></i>
-                <div class="card-body"
+                <div class="card-body">
                     <h4 class="card-title fw-bold">Medios de Pago</h4>
                     <p class="card-text text-secondary">Trabajamos con todas las tarjetas de crédito y débito a través de MercadoPago.</p>
                     <ul class="list-unstyled text-start mt-3">
-                        <li><i class="bi bi-check2-circle text-success me-2"></i> 3 Cuotas sin interés.</li>
-                        <li><i class="bi bi-check2-circle text-success me-2"></i> <strong>15% OFF</strong> abonando con Transferencia Bancaria.</li>
-                        <li><i class="bi bi-check2-circle text-success me-2"></i> Efectivo en puntos de pago (Rapipago/PagoFácil)--Retirando en el local.</li>
+                        <li><i class="bi bi-check2-circle text-info me-2"></i> 3 Cuotas sin interés.</li>
+                        <li><i class="bi bi-check2-circle text-info me-2"></i> <strong>15% OFF</strong> abonando con Transferencia Bancaria.</li>
+                        <li><i class="bi bi-check2-circle text-info me-2"></i> Efectivo en puntos de pago (Rapipago/PagoFácil)--Retirando en el local.</li>
                     </ul>
                 </div>
             </div>
@@ -109,8 +111,8 @@
                     <h4 class="card-title fw-bold">Entregas Locales</h4>
                     <p class="card-text text-secondary">Si estás en Corrientes Capital, podés tener tu pedido más rápido.</p>
                     <ul class="list-unstyled text-start mt-3">
-                        <li><i class="bi bi-bicycle text-warning me-2"></i> <strong>Cadetería express:</strong> Entregas en el día.</li>
-                        <li><i class="bi bi-geo-alt text-warning me-2"></i> <strong>Pick-up point:</strong> Retiro gratis por nuestro showroom de 9 a 18hs.</li>
+                        <li><i class="bi bi-bicycle text-info me-2"></i> <strong>Cadetería express:</strong> Entregas en el día.</li>
+                        <li><i class="bi bi-geo-alt text-info me-2"></i> <strong>Pick-up point:</strong> Retiro gratis por nuestro showroom de 9 a 18hs.</li>
                     </ul>
                 </div>
             </div>
