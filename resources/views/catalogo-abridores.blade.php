@@ -135,7 +135,7 @@
 
           <!-- Marca -->
           <div class="col-md-4 mb-3">       
-            <h5><a href="/" class="footer-link"> Brightness.Store</h5></a>
+            <h5><a href="/" class="footer-link">Brightness.Store</a></h5>
             <p class="small">
               Tienda de accesorios. Calidad y estilo para cada ocasión.
             </p>

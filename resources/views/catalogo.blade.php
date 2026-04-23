@@ -69,7 +69,8 @@
     <div class="row">
       <!--Columna izquierda (categorias)-->
       <div class="col-md-2 justify-content-center mb-4">
-        <div class="bg-light p-3 rounded">
+        <div class="sticky-top" style="top: 20px; z-index: 1020;">
+          <div class="bg-light p-3 rounded">          
 
           <h5 class="mb-3 ">Categorías</h5>
 
@@ -86,7 +87,7 @@
           </div>
         </div>
       </div>
-
+    </div>
       <!--Columna central (productos)-->
       <div class="col-md-10">
         <div class="row">
@@ -180,7 +181,7 @@
 
           <!-- Marca -->
           <div class="col-md-4 mb-3">
-            <h5><a href="/" class="footer-link"> Brightness.Store</h5></a>
+            <h5><a href="/" class="footer-link">Brightness.Store</a></h5>
             <p class="small">
               Tienda de accesorios. Calidad y estilo para cada ocasión.
             </p>

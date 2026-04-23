@@ -164,8 +164,77 @@
                     <small class="text-muted">Buenos Aires</small>
                 </div>
             </div>
-              <div class="mt-4">
+              
+        </div>
+    </div>
+  </section>
+
+  <section class="py-5" style="background-color: rgb(249, 249, 249);">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5">Nuestras categorias</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
+                   <a href="/catalogo-abridores" class="btn btn-dark px-4 py-2 rounded-pill">Aros abridores                       
+                    </a>  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                
+                    <a href="/catalogo-argollas" class="btn btn-dark px-4 py-2 rounded-pill">Argollas                        
+                    </a>  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">
+                    <a href="/catalogo-escarapelas" class="btn btn-dark px-4 py-2 rounded-pill">Escarapelas                        
+                    </a> 
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
+                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Anillos                        
+                    </a>  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
+                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    </a>  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
+                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    </a>  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
+                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    </a>  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
+                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    </a>  
+                </div>
+            </div>
+
+                <div class="mt-4">
                   <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Ver Catálogo Completo</a>
+              </div>
+              <div class="mt-4">
+                  <a href="/comercializacion" class="btn btn-dark px-4 py-2 rounded-pill">+ Info de compras</a>
               </div>
         </div>
     </div>
@@ -177,7 +246,7 @@
 
           <!-- Marca -->
           <div class="col-md-4 mb-3">
-            <h5><a href="/" class="footer-link"> Brightness.Store</h5></a>
+            <h5><a href="/" class="footer-link">Brightness.Store</a></h5>
             <p class="small">
               Tienda de accesorios. Calidad y estilo para cada ocasión.
             </p>
@@ -215,6 +284,6 @@
     </div>
   </footer>
 
-  <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>.
+  <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
