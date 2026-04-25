@@ -29,7 +29,7 @@
     </div>
       <!--Columna central (productos)-->
       <div class="col-md-10">
-        <div class="row">
+        <div class="row ">
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
@@ -170,6 +170,83 @@
                 <h5 class="card-title">Anillo Corazones</h5>
                 <p class="card-text">De Acero Blanco</p>
                 <span class="badge bg-success fs-6 mt-auto">$3.250</span>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/aros-flor.jpeg')}}" class="card-img-top img-product" alt="Producto: Aros Flor">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Aros Flor</h5>
+                <p class="card-text">De Plata 925</p>
+                <span class="badge bg-success fs-6 mt-auto">$7.800</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/aros-reina.jpeg')}}" class="card-img-top img-product" alt="Producto: Aros Reina">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Aros Reina</h5>
+                <p class="card-text">De Plata 925</p>
+                <span class="badge bg-success fs-6 mt-auto">$7.800</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/aros-gota-grande.jpeg')}}" class="card-img-top img-product" alt="Producto: Aros Gota Grande">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Aros Gota Grande</h5>
+                <p class="card-text">De Plata 925</p>
+                <span class="badge bg-success fs-6 mt-auto">$13.000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/broche-hawaii-grande-amarillo-celeste.jpeg')}}" class="card-img-top img-product" alt="Producto: Broche Hawaii Grande">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Broche Hawaii Grande amarillo-celeste</h5>
+                <p class="card-text">Broche para el pelo</p>
+                <span class="badge bg-success fs-6 mt-auto">$5.200</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/broche-hawaii-grande-rosa-fucsia.jpeg')}}" class="card-img-top img-product" alt="Producto: Broche Hawaii Grande">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Broche Hawaii Grande rosa-fucsia</h5>
+                <p class="card-text">Broche para el pelo</p>
+                <span class="badge bg-success fs-6 mt-auto">$5.200</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/conjunto-corazon-violeta.jpeg')}}" class="card-img-top img-product" alt="Producto: Conjunto Corazón Violeta">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Conjunto Corazón Violeta</h5>
+                <p class="card-text">Set de Collar con dije Corazon Violeta y bolitas</p>
+                <span class="badge bg-success fs-6 mt-auto">$7.800</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/conjunto-copo-nieve.jpeg')}}" class="card-img-top img-product" alt="Producto: Conjunto Copo de Nieve">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Conjunto Copo de Nieve</h5>
+                <p class="card-text">Set de collar con dije Copo de Nieve</p>
+                <span class="badge bg-success fs-6 mt-auto">$4.550</span>
               </div>
             </div>
           </div>
