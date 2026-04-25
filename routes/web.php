@@ -49,6 +49,26 @@ Route::get('/catalogo-argollas', function (){
     return view('catalogo-argollas');
 });
 
+Route::get('/catalogo-aros', function (){
+    return view('catalogo-aros');
+});
+
+Route::get('/catalogo-anillos', function (){
+    return view('catalogo-anillos');
+});
+
+Route::get('/catalogo-pulseras', function (){
+    return view('catalogo-pulseras');
+});
+
+Route::get('/catalogo-conjuntos', function (){
+    return view('catalogo-conjuntos');
+});
+
+Route::get('/catalogo-broches', function (){
+    return view('catalogo-broches');
+});
+
 Route::get('/RegistroUsuario', function (){
     return view('RegistroUsuario');
 });

@@ -1,9 +1,8 @@
 @extends('layouts.app') {{-- Esto dice: "Usá el molde de app.blade.php" --}}
 
-@section('titulo', 'Escarapelas - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Aros - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
 
 @section('contenido')
-
   <div class="container-fluid d-flex justify-content-center">
     <div class="row w-100">
       <!--Columna izquierda (categorias)-->
@@ -39,22 +38,33 @@
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-bandera-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela bandera mini">
+              <img src="{{asset('images/products/aros-flor.jpeg')}}" class="card-img-top img-product" alt="Producto: Aros Flor">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela bandera mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Aros Flor</h5>
+                <p class="card-text">De Plata 925</p>
+                <span class="badge bg-success fs-6 mt-auto">$7.800</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-circular-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela circular mini">
+              <img src="{{asset('images/products/aros-reina.jpeg')}}" class="card-img-top img-product" alt="Producto: Aros Reina">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela circular mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Aros Reina</h5>
+                <p class="card-text">De Plata 925</p>
+                <span class="badge bg-success fs-6 mt-auto">$7.800</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/aros-gota-grande.jpeg')}}" class="card-img-top img-product" alt="Producto: Aros Gota Grande">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Aros Gota Grande</h5>
+                <p class="card-text">De Plata 925</p>
+                <span class="badge bg-success fs-6 mt-auto">$13.000</span>
               </div>
             </div>
           </div>
@@ -63,6 +73,4 @@
       </div>
     </div>
   </div>
-
 @endsection
-

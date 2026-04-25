@@ -1,9 +1,8 @@
 @extends('layouts.app') {{-- Esto dice: "Usá el molde de app.blade.php" --}}
 
-@section('titulo', 'Escarapelas - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Anillos - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
 
 @section('contenido')
-
   <div class="container-fluid d-flex justify-content-center">
     <div class="row w-100">
       <!--Columna izquierda (categorias)-->
@@ -39,22 +38,33 @@
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-bandera-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela bandera mini">
+              <img src="{{asset('images/products/anillo-hojas.jpeg')}}" class="card-img-top img-product" alt="Producto: Anillo hojas">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela bandera mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Anillo hojas</h5>
+                <p class="card-text">De Acero Blanco</p>
+                <span class="badge bg-success fs-6 mt-auto">$4.000</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-circular-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela circular mini">
+              <img src="{{asset('images/products/anillo-julia.jpeg')}}" class="card-img-top img-product" alt="Producto: Anillo Julia">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela circular mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Anillo Julia</h5>
+                <p class="card-text">De Acero Blanco</p>
+                <span class="badge bg-success fs-6 mt-auto">$9.100</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/anillo-corazones.jpeg')}}" class="card-img-top img-product" alt="Producto: Anillo Corazones">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Anillo Corazones</h5>
+                <p class="card-text">De Acero Blanco</p>
+                <span class="badge bg-success fs-6 mt-auto">$3.250</span>
               </div>
             </div>
           </div>
@@ -63,6 +73,4 @@
       </div>
     </div>
   </div>
-
 @endsection
-

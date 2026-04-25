@@ -114,7 +114,7 @@
         <div class="row g-4">
             <div class="col-md-3">
                 <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
-                   <a href="/catalogo-abridores" class="btn btn-dark px-4 py-2 rounded-pill">Aros abridores                       
+                   <a href="/catalogo-abridores" class="btn btn-dark px-4 py-2 rounded-pill">Abridores                       
                     </a>  
                 </div>
             </div>
@@ -135,35 +135,35 @@
 
             <div class="col-md-3">
                 <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
-                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Anillos                        
+                    <a href="/catalogo-anillos" class="btn btn-dark px-4 py-2 rounded-pill">Anillos                        
                     </a>  
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
-                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    <a href="/catalogo-pulseras" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
                     </a>  
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
-                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    <a href="/catalogo-broches" class="btn btn-dark px-4 py-2 rounded-pill">Broches                       
                     </a>  
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
-                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    <a href="/catalogo-conjuntos" class="btn btn-dark px-4 py-2 rounded-pill">Conjuntos                       
                     </a>  
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="p-4 header-custom rounded-3 shadow-sm h-100">                    
-                    <a href="/catalogo" class="btn btn-dark px-4 py-2 rounded-pill">Pulseras                        
+                    <a href="/catalogo-aros" class="btn btn-dark px-4 py-2 rounded-pill">Aros                       
                     </a>  
                 </div>
             </div>

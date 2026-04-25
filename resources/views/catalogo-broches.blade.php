@@ -1,9 +1,8 @@
 @extends('layouts.app') {{-- Esto dice: "Usá el molde de app.blade.php" --}}
 
-@section('titulo', 'Escarapelas - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Broches - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
 
 @section('contenido')
-
   <div class="container-fluid d-flex justify-content-center">
     <div class="row w-100">
       <!--Columna izquierda (categorias)-->
@@ -39,22 +38,22 @@
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-bandera-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela bandera mini">
+              <img src="{{asset('images/products/broche-hawaii-grande-amarillo-celeste.jpeg')}}" class="card-img-top img-product" alt="Producto: Broche Hawaii Grande">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela bandera mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Broche Hawaii Grande amarillo-celeste</h5>
+                <p class="card-text">Broche para el pelo</p>
+                <span class="badge bg-success fs-6 mt-auto">$5.200</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-circular-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela circular mini">
+              <img src="{{asset('images/products/broche-hawaii-grande-rosa-fucsia.jpeg')}}" class="card-img-top img-product" alt="Producto: Broche Hawaii Grande">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela circular mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Broche Hawaii Grande rosa-fucsia</h5>
+                <p class="card-text">Broche para el pelo</p>
+                <span class="badge bg-success fs-6 mt-auto">$5.200</span>
               </div>
             </div>
           </div>
@@ -63,6 +62,4 @@
       </div>
     </div>
   </div>
-
 @endsection
-

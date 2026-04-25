@@ -1,9 +1,8 @@
 @extends('layouts.app') {{-- Esto dice: "Usá el molde de app.blade.php" --}}
 
-@section('titulo', 'Escarapelas - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Pulseras - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
 
 @section('contenido')
-
   <div class="container-fluid d-flex justify-content-center">
     <div class="row w-100">
       <!--Columna izquierda (categorias)-->
@@ -37,24 +36,35 @@
       <div class="col-md-10">
         <div class="row w-100">
 
-          <div class="col-md-3 mb-4">
+         <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-bandera-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela bandera mini">
+              <img src="{{asset('images/products/pulsera-pandora-heart-black.jpeg')}}" class="card-img-top img-product" alt="Producto: Pulsera Pandora heart black">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela bandera mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Pulsera Pandora heart black</h5>
+                <p class="card-text">De Acero Quirurgico</p>
+                <span class="badge bg-success fs-6 mt-auto">$6.500 / 2x:$13.000</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-3 mb-4">
             <div class="card h-100">
-              <img src="{{asset('images/products/escarapela-circular-mini.jpeg')}}" class="card-img-top img-product" alt="Producto: Escarapela circular mini">
+              <img src="{{asset('images/products/pulsera-pandora-heart.jpeg')}}" class="card-img-top img-product" alt="Producto: Pulsera Pandora heart">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Escarapela circular mini</h5>
-                <p class="card-text">De acero. Cierre pin.</p>
-                <span class="badge bg-success fs-6 mt-auto">$2.700</span>
+                <h5 class="card-title">Pulsera Pandora heart</h5>
+                <p class="card-text">De Acero Quirurgico</p>
+                <span class="badge bg-success fs-6 mt-auto">$6.500 / 2x:$13.000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img src="{{asset('images/products/pulsera-colour-azul.jpeg')}}" class="card-img-top img-product" alt="Producto: Pulsera Colour Azul">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Pulsera Colour Azul</h5>
+                <p class="card-text">De Acero Quirurgico</p>
+                <span class="badge bg-success fs-6 mt-auto">$6.000</span>
               </div>
             </div>
           </div>
@@ -63,6 +73,4 @@
       </div>
     </div>
   </div>
-
 @endsection
-

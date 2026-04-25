@@ -11,22 +11,27 @@
         <div class="sticky-top" style="top: 20px; z-index: 1020;">
           <div class="bg-light p-3 rounded">          
 
-          <h5 class="mb-3 ">Categorías</h5>
+            <h5 class="mb-3 ">Categorías</h5>
 
-          <div class="dropdown">
-            <a class="btn btn-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/catalogo">Todos</a></li>
-              <li><a class="dropdown-item" href="/catalogo-abridores">Abridores</a></li>
-              <li><a class="dropdown-item" href="/catalogo-argollas">Argollas</a></li>
-              <li><a class="dropdown-item" href="/catalogo-escarapelas">Escarapelas</a></li>
-            </ul>
+            <div class="dropdown">
+              <a class="btn btn-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/catalogo">Todos</a></li>
+                <li><a class="dropdown-item" href="/catalogo-abridores">Abridores</a></li>
+                <li><a class="dropdown-item" href="/catalogo-argollas">Argollas</a></li>
+                <li><a class="dropdown-item" href="/catalogo-escarapelas">Escarapelas</a></li>
+                <li><a class="dropdown-item" href="/catalogo-aros">Aros</a></li>
+                <li><a class="dropdown-item" href="/catalogo-anillos">Anillos</a></li>
+                <li><a class="dropdown-item" href="/catalogo-pulseras">Pulseras</a></li>
+                <li><a class="dropdown-item" href="/catalogo-conjuntos">Conjuntos</a></li>
+                <li><a class="dropdown-item" href="/catalogo-broches">Broches</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
       <!--Columna central (productos)-->
       <div class="col-md-10">
         <div class="row ">
