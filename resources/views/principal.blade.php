@@ -1,6 +1,6 @@
 @extends('layouts.app') 
 
-@section('titulo', 'Inicio - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Inicio - Brightness.Store') 
 
 @section('contenido')
     <section class="py-5 bg-white">

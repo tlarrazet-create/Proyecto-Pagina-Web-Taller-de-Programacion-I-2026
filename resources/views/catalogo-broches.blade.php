@@ -1,11 +1,11 @@
-@extends('layouts.app') {{-- Esto dice: "Usá el molde de app.blade.php" --}}
+@extends('layouts.app') 
 
-@section('titulo', 'Broches - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Broches - Brightness.Store') 
 
 @section('contenido')
   <div class="container-fluid d-flex justify-content-center">
     <div class="row w-100">
-      <!--Columna izquierda (categorias)-->
+      
       <div class="col-md-2 justify-content-center mb-4">
         <div class="sticky-top" style="top: 20px; z-index: 1020;">
           <div class="bg-light p-3 rounded">
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <!--Columna central (productos)-->
+      
       <div class="col-md-10">
         <div class="row w-100">
 

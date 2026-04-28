@@ -1,6 +1,6 @@
-@extends('layouts.app') {{-- Esto dice: "Usá el molde de app.blade.php" --}}
+@extends('layouts.app')
 
-@section('titulo', 'Exito consulta - Brightness.Store') {{-- Cambia el nombre de la pestaña --}}
+@section('titulo', 'Exito consulta - Brightness.Store') 
 
 @section('contenido')
 

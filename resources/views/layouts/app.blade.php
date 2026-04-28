@@ -74,7 +74,7 @@
             <div class="container">
             <div class="row">
 
-                <!-- Marca -->
+                
                 <div class="col-md-4 mb-3">
                     <h5><a href="/" class="footer-link">Brightness.Store</a></h5>
                     <p class="small">
@@ -82,7 +82,7 @@
                     </p>
                 </div>
 
-                <!-- Enlaces -->
+                
                 <div class="col-md-4 mb-3">
                     <h5>Información</h5>
                     <ul class="list-unstyled">
@@ -92,7 +92,7 @@
                     </ul>
                 </div>
 
-                <!-- Redes -->
+                
                 <div class="col-md-4 mb-3">
                     <h5>Seguinos</h5>
                     <a href="https://www.instagram.com/brightness__store/" 
@@ -105,7 +105,7 @@
 
             </div>
 
-            <!-- Línea inferior -->
+            
             <hr class="border-light">
 
             <div class="text-center small">
