@@ -23,13 +23,13 @@
     </div>
   </section>
 
-  <div class="container mt-3">
+    <div class="container mt-3 mb-4">
     <div class="text-center mb-4">
         <h2 class="fw-bold">Nuestros Destacados</h2>
         <p class="text-muted">Descubrí las piezas más elegidas de Brightness.Store</p>
     </div>        
     <div class="row justify-content-center">
-    <div class="col-md-10">
+        <div class="col-md-10">
             <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 
   <section class="py-5" style="background-color: rgb(249, 246, 196);">
     <div class="container text-center">
