@@ -23,7 +23,7 @@
     </div>
   </section>
 
-  <div class="container mt-3">
+  <div class="container mt-3 mb-5">
     <div class="text-center mb-4">
         <h2 class="fw-bold">Nuestros Destacados</h2>
         <p class="text-muted">Descubrí las piezas más elegidas de Brightness.Store</p>
@@ -63,7 +63,7 @@
 </div>
 
   <section class="py-5" style="background-color: rgb(249, 246, 196);">
-    <div class="container text-center">
+    <div class="container text-center mt-3">
         <h2 class="fw-bold mb-5">Lo que dicen nuestros clientes</h2>
         
         <div class="row g-4">
