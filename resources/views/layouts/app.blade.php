@@ -11,7 +11,7 @@
 <body class="d-flex flex-column min-vh-100">
 
     <header class="header-custom">
-        <div class="bg-primary text-white py-1">
+    <div class="bg-primary text-white py-1">
         <div id="miniCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active text-center">
@@ -72,7 +72,7 @@
     </main>
 
     <footer class="footer-custom text-black mt-5 pt-4 pb-2">
-            <div class="container">
+        <div class="container">
             <div class="row">
 
                 
@@ -112,7 +112,7 @@
             <div class="text-center small">
                 © 2026 Brightness.Store - Todos los derechos reservados
             </div>
-            </div>
+        </div>
     </footer>
 
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>

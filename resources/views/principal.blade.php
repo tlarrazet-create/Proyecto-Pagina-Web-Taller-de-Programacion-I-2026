@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-  </section>
+    </section>
 
     <div class="container mt-3 mb-4">
     <div class="text-center mb-4">
@@ -62,7 +62,7 @@
     </div>
     </div>
 
-  <section class="py-5" style="background-color: rgb(249, 246, 196);">
+    <section class="py-5" style="background-color: rgb(249, 246, 196);">
     <div class="container text-center">
         <h2 class="fw-bold mb-5">Lo que dicen nuestros clientes</h2>
         
@@ -105,9 +105,9 @@
               
         </div>
     </div>
-  </section>
+    </section>
 
-  <section class="py-5" style="background-color: rgb(249, 249, 249);">
+    <section class="py-5" style="background-color: rgb(249, 249, 249);">
     <div class="container text-center">
         <h2 class="fw-bold mb-5">Nuestras categorias</h2>
         
@@ -176,7 +176,7 @@
               </div>
         </div>
     </div>
-  </section>
+    </section>
 @endsection
 
    

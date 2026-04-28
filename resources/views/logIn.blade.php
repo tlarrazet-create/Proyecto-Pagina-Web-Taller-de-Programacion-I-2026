@@ -3,14 +3,16 @@
 @section('titulo', 'Login - Brightness.Store') 
 
 @section('contenido')
-    <div class="container mt-5 mb-5">
+  <div class="container mt-5 mb-5">
     <div class="row justify-content-center">
-      
       <div class="col-md-4">
-        <div class="card border-0 shadow-lg"> <div class="card-body p-5"> <div class="text-center mb-4">
-                <i class="bi bi-person-circle text-muted" style="font-size: 3rem;"></i>
-                <h3 class="mt-2 fw-bold">Iniciar Sesión</h3> 
-                <p class="text-muted small">Ingresá a tu cuenta de Brightness.Store</p>
+        <div class="card border-0 shadow-lg"> 
+          <div class="card-body p-5"> 
+            
+            <div class="text-center mb-4">
+              <i class="bi bi-person-circle text-muted" style="font-size: 3rem;"></i>
+              <h3 class="mt-2 fw-bold">Iniciar Sesión</h3> 
+              <p class="text-muted small">Ingresá a tu cuenta de Brightness.Store</p>
             </div>
             
             <form action="{{ url('/ProcesarLogin') }}" method="POST">

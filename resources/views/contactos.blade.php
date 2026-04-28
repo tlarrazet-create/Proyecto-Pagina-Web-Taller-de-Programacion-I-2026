@@ -4,13 +4,15 @@
 
 @section('contenido')
   
-    <div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-lg border-0">
+
                 <div class="card-header header-custom text-dark text-center py-4">
                     <h1 class="h3 mb-0">Información de Contacto</h1>
                 </div>
+
                 <div class="card-body p-5">
                     
                     <div class="row mb-4">
@@ -74,56 +76,55 @@
                     </div>
 
                 </div>
+
                 <div class="card-footer bg-light text-center py-3">
                     <small class="text-muted">Horario de atención: Lunes a Sabado de 09:00 a 18:00 hs.</small>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
 
-     <div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5">
     <div class="row justify-content-center">
       
-      <div class="col-md-8">
+        <div class="col-md-8">
         
-        <h1 class="text-center mb-3">Formulario de Consultas</h1>
-          <p class="text-center lead text-muted mb-5 mx-auto" style="max-width: 700px;">
+            <h1 class="text-center mb-3">Formulario de Consultas</h1>
+            <p class="text-center lead text-muted mb-5 mx-auto" style="max-width: 700px;">
               En Brightness.Store estamos para ayudarte en todo momento durante tu experiencia de compra. 
               Dejanos tu mensaje si tenés alguna duda sobre algún producto, métodos de pago, compras mayoristas, etc.
-          </p>
+            </p>
 
-        <div class="card border-warning shadow"> 
-          <div class="card-body p-4">
-            <h2 class="text-center mb-4">Formulario de contacto</h2> 
+            <div class="card border-warning shadow"> 
+                <div class="card-body p-4">
+                    <h2 class="text-center mb-4">Formulario de contacto</h2> 
             
-            <form action="{{ url('/contactos') }}" method="POST">
-             @csrf
+                    <form action="{{ url('/contactos') }}" method="POST">
+                    @csrf
 
-             <div class="mb-3"> 
-               <label class="form-label">Nombre</label>
-               <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre" required> 
-             </div> 
-             
-             <div class="mb-3">
-               <label class="form-label">Email</label>
-               <input type="email" name="email" class="form-control" placeholder="Ingrese su email" required> 
-             </div>
-               
-             <div class="mb-3">
-               <label class="form-label">Mensaje</label>
-               <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese su mensaje" required></textarea>
-             </div>
-                  
-             <div class="d-grid">
-               <button type="submit" class="btn btn-dark btn-lg">Enviar mensaje</button>
-             </div>
-            </form>
-
-          </div>
+                    <div class="mb-3"> 
+                        <label class="form-label">Nombre</label>
+                        <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre" required> 
+                    </div> 
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="Ingrese su email" required> 
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea name="mensaje" class="form-control" rows="4" placeholder="Ingrese su mensaje" required></textarea>
+                    </div>
+                        
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-dark btn-lg">Enviar mensaje</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
-
-      </div>
     </div>
-  </div>
+</div>
 @endsection
