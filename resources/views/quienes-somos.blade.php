@@ -4,7 +4,6 @@
 
 @section('contenido')
     <div class="container mt-5 mb-5">
-    
         <div class="row justify-content-center mb-5 text-center">
             
             <h2 class="fw-bold mb-4"><i class="bi bi-clock-history"></i> Nuestra Historia</h2>
@@ -27,9 +26,6 @@
                 Te invito a conocerme y ser parte de la familia Brightness. <i class="bi bi-people-fill" style="color: rgb(255, 211, 107);"></i>
             </p>
             
-
-
-
             <div class="card h-100 border-0 shadow-sm text-center p-4">
                 <div class="mx-auto mb-4" style="width: 160px; height: 160px; overflow: hidden; border-radius: 50%; border: 3px solid #f9f6c4;">
                     <img src="{{ asset('images/creadores/FotoCarla.jpeg') }}" alt="Foto de la Fundadora" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
@@ -38,11 +34,9 @@
                     <h4 class="fw-bold">Monzon Carla</h4>
                     <p class="mb-2" style="color: rgb(241, 232, 42); font-weight: 500;">Fundadora</p>
                 </div>
-            </div>
-            
+            </div> 
         </div>
-
-
+        
         <div class="row mt-5 pt-4 border-top">
             <h3 class="text-center fw-bold mb-4"><i class="bi bi-tools"></i> Artesanía con Propósito</h3>
             <p class="text-center text-muted mb-5">Nos especializamos en dos pasiones que definen nuestra identidad:</p>

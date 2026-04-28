@@ -3,11 +3,9 @@
 @section('titulo', 'Registro de Usuario - Brightness.Store') 
 
 @section('contenido')
-    <div class="container mt-5 mb-5">
+  <div class="container mt-5 mb-5">
     <div class="row justify-content-center">
-      
       <div class="col-md-4">
-
         <div class="card border-warning shadow"> 
           <div class="card-body p-4">
             <h2 class="text-center mb-4">Formulario de registro</h2> 
@@ -47,7 +45,6 @@
 
           </div>
         </div>
-
       </div>
     </div>
   </div>

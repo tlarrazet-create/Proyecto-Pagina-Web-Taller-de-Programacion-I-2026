@@ -35,11 +35,11 @@
                 <p>Tus datos (nombre, email, domicilio) se utilizan exclusivamente para procesar tu compra. Contamos con protocolos SSL para garantizar transacciones 100% seguras.</p>
             </section>
 
-            </div>
+        </div>
 
         <div class="card-footer text-muted text-center">
             Última actualización: Abril 2026 - Brightness.Store
         </div>
     </div>
-  </div>
+    </div>
 @endsection

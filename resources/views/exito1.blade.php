@@ -5,7 +5,7 @@
 @section('contenido')
     
 <main class="flex-grow-1 d-flex align-items-center justify-content-center py-5">
-    <div class="container text-center">
+  <div class="container text-center">
     <div class="row justify-content-center">
       <div class="col-md-6">
         <div class="card border-0 shadow-lg p-5">
@@ -28,6 +28,6 @@
       </div>
     </div>
   </div>
-    </main>
+</main>
 @endsection
 
