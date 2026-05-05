@@ -128,7 +128,7 @@
             <div class="col-md-5">
                 <div class="card h-100 border-0 shadow-sm text-center p-4">
                     <div class="mx-auto mb-4" style="width: 160px; height: 160px; overflow: hidden; border-radius: 50%; border: 3px solid #f9f6c4;">
-                        <img src="{{ asset('images/creadores/4x4(2).jpeg') }}" alt="Foto del Programador 2" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                        <img src="{{ asset('images/creadores/Gemini_Generated_Image_764nsf764nsf764n.png') }}" alt="Foto del Programador 2" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="card-body p-0">
                         <h4 class="fw-bold">Larrazet Tomas</h4>
